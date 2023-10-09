@@ -1,30 +1,30 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return: Always 0 (success)
+ * Return: 0 (success)
  *
  */
 int main(void)
 {
-	char c;
+	int i;
 
-	char d;
+	for(i = 0; i < 26; i++)
+			{
+			putchar('a' + i);
+			}
 
-	c = 'a';
-	d = 'A';
+			for(i = 0; i < 26; i++)
+				{
+				putchar('A' + i);
+				}
 
-	while
-	(c <= 'z') {
-	putchar(c);
-	c++;
-	}
-	while
-	(d <= 'z') {
-	putchar(d);
-	d++;
-	}
-	putchar('\n');
+				putchar('\n');
 
-	return (0);
+				return (0);
 
-}
+				}
+
+
+
+
+
