@@ -5,9 +5,7 @@
  *
  */
 int main(void)
-
 {
-
 	char c;
 
 	char d;
