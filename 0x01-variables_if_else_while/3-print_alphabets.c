@@ -6,23 +6,23 @@
  */
 int main(void)
 {
-	int i;
+int i;
 
-	for(i = 0; i < 26; i++)
-			{
-			putchar('a' + i);
-			}
+for (i = 0; i < 26; i++)
+{
+putchar('a' + i);
+}
 
-			for(i = 0; i < 26; i++)
-				{
-				putchar('A' + i);
+for (i = 0; i < 26; i++)
+{
+putchar('A' + i);
 				}
 
-				putchar('\n');
+putchar('\n');
 
-				return (0);
+return (0);
 
-				}
+}
 
 
 
