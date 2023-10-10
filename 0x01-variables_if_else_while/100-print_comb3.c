@@ -5,6 +5,7 @@
  *
  */
 int main(void)
+
 {
 	int ones = '0';
 
