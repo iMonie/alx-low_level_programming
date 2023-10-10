@@ -14,7 +14,7 @@ char c;
 c = 'z';
 
 while
-(c >= 'z') {
+(c >= 'a') {
 putchar(c);
 c--;
 }
